@@ -2,12 +2,18 @@
 import java.util.Random;
 
 /*
+Algoritmos y Estructura de datos
+Nombres: Marlon Fuentes, Davis Alvarez, Joyce Miranda
+Fecha: 01/08/16
+Proposito: En este programa se utiliza el codigo encontrado en internet, cuya
+referencia se encuentra mas adelante. Este usara el metodo mergesort para 
+ordenar las listas. 
 Enlace: http://www.java2novice.com/java-sorting-algorithms/merge-sort/
  */
 
 /**
  *
- * @author Marlon
+ * Creacion de los array, y temMergeArr
  */
 public class MyMergeSort {
     private int[] array;
@@ -60,6 +66,7 @@ public class MyMergeSort {
         }
  
     }
+    /*Ciclo para generar la lista random*/
 	public int[] generarNumeros(int cant, int max){
 		int cont=0;
 		int[] array = new int[cant] ;
