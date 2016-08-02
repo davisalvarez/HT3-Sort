@@ -3,13 +3,15 @@ import java.util.Random;
 
 
 /*
+Algoritmos y Estructura de datos
+Nombres: Marlon Fuentes, Davis Alvarez, Joyce Miranda
+Fecha: 01/08/16
+Proposito: En este programa se utiliza el codigo encontrado en internet, cuya
+referencia se encuentra mas adelante. Este usara el metodo Radixsort para 
+ordenar las listas. Aqui tambien se crearan las listas random 
 Enlace: http://www.sanfoundry.com/java-program-implement-radix-sort/
  */
 
-/**
- *
- * @author Marlon
- */
 public class RadixSort {
      public static void sort( int[] a)
     {
@@ -33,6 +35,7 @@ public class RadixSort {
             exp *= 10;        
         }
     }    
+    //Ciclo para la lista random
   	public int[] generarNumeros(int cant, int max){
 		int cont=0;
 		int[] arr = new int[cant] ;
